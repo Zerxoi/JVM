@@ -55,8 +55,8 @@ Java 虚拟机的启动时通过引导类加载器(bootstrap class loader)创建
 
 - 程序正常执行结束
 - 程序在执行过程中遇到了异常或者错误而异常终止
-- 由于操作系统出现错误二导致Java虚拟机进程终止
-- 主动结束: 某线程调用System类的exit方法, 或者 Runtime类的halt方法, 兵器Java安全管理器也允许这次exit或halt操作
+- 由于操作系统出现错误而导致Java虚拟机进程终止
+- 主动结束: 某线程调用System类的exit方法, 或者 Runtime类的halt方法, 并且Java安全管理器也允许这次exit或halt操作
 - JNI(Java Native Interface)规范描述了用JNI Invocation API 来加载或卸载 Java虚拟机时, Java虚拟机的退出情况
 
 ## 1.4 JVM 发展历程
