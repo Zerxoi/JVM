@@ -9,7 +9,7 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "-XX:+PrintCommandLineFlags"
+            // "vmArgs": "-XX:+PrintCommandLineFlags"
         }
     ]
 }
